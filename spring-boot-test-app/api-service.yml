@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: spring-boot-api
 spec:
+  type: LoadBalancer
   ports:
     - name: "tomcat"
       port: 80
