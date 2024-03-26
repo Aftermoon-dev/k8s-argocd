@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-api
-        image: aftermoon/kube-test-spring-boot:latest
+        image: aftermoon/kube-test-spring-boot:sha-c6ea411
         ports:
         - containerPort: 8080
